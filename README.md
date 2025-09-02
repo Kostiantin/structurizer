@@ -1,5 +1,9 @@
 # AI SaaS Demo
-My cost-optimized demo for an AI-powered SaaS platform. Features include workshop summarization, task extraction, and diagram generation.
+My AI-powered SaaS platform which uses chatGpt model. Features include workshop summarization, task extraction, and diagram generation.
+
+## 📸 Preview
+
+![Structurizer AI SaaS Screenshot](frontend/src/assets/structurizer.png)
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt` and `cd frontend && npm install`
@@ -34,7 +38,6 @@ source venv/bin/activate
 Install Python dependencies:
 
 pip install -r requirements.txt
-pip install faiss-cpu
 
 If you use conda:
 
@@ -48,11 +51,7 @@ pip install uvicorn[standard] fastapi
 pip install langchain huggingface-hub langchain_community sentence-transformers
 
 
-Add required environment variables in a .env file in the root:
-
-HUGGINGFACEHUB_API_TOKEN=your-hf-token
-AWS_ACCESS_KEY_ID=your-aws-key
-AWS_SECRET_ACCESS_KEY=your-aws-secret
+Rename .envexample to .env and add required environment variables!
 
 
 Run the backend (from root structurizer/):

@@ -1,0 +1,87 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.app-logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #262626;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+body {
+    background: #f8f9fa;
+}
+body *{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.card {
+    border-radius: 16px;
+    border: 1px solid #262626;
+}
+textarea {
+    resize: none;
+}
+.meeting-image-holder {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.meeting-image {
+    width: 100%;
+    border-radius: 16px;
+    border: 2px solid #262626;
+}
+.mb-6 {
+    margin-bottom: 3rem;
+}
+.over-image-text {
+    font-size: 1.2rem;
+    color: #262626;
+}
+.btn.btn-primary {
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.5rem;
+    border-color: #262626;
+}
+.card .copy-btn {
+    display: none;
+}
+
+.card.has-content .copy-btn {
+    display: inline-block;
+}
+/* Tooltip popup */
+.tooltip-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #262626;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    opacity: 0;
+    animation: fadeInOut 2s forwards;
+    z-index: 9999;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(-10px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
+.author-me a {
+    font-size: 1rem;
+    color: #d4494c;
+    font-weight: 300;
+}
+.author-me {
+    text-align: right;
+    margin-top: 2rem;
+    font-style: italic;
+    font-weight: 300;
+}

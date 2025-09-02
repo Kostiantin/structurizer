@@ -1,0 +1,66 @@
+__pycache__/
+.idea/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pyc
+.DS_Store
+*.joblib
+*.pem
+aws_credentials.py
+
+# -----------------------
+# Python
+# -----------------------
+
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.env
+*.venv
+*.egg-info/
+*.pytest_cache/
+*.mypy_cache/
+
+# Virtual environment
+
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+share/
+
+# -----------------------
+# Node / React frontend
+# -----------------------
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# -----------------------
+# OS / Editor
+# -----------------------
+
+Thumbs.db
+*.swp
+*.swo
+*.vscode/
+*.iml
+
+# -----------------------
+# Docker
+# -----------------------
+*.dockerignore
+*.pid
+*.cache
+*.tmp
+
+# -----------------------
+# Misc
+# -----------------------
+*.bak
+
